@@ -1,0 +1,11 @@
+<h1>Users#show</h1>
+<p>
+Welcome, <%= @user.email %>!
+
+<% if logged_in? -%>
+Welcome session, <%= current_user.email %>
+
+<% end -%>
+</p>
+
+
